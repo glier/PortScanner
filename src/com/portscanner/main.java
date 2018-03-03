@@ -26,14 +26,14 @@ public class main {
 
         processArgs(args);
 
-        try {
-            if (!address.isReachable(null, 255, 2000)) {
-                System.out.println("Хост недоступен.");
-                System.exit(1);
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            if (!address.isReachable(null, 255, 2000)) {
+//                System.out.println("Хост недоступен.");
+//                System.exit(1);
+//            }
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
 
         Long timeStart = Calendar.getInstance().getTimeInMillis();
 
